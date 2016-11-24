@@ -6,6 +6,11 @@ font-family: "Cochin",sans-serif;
 }
 
 
+@font-face {
+    font-family: "hellifa demo"; src: url('./font-awesome-4.7.0/fonts/hellifa%20demo.otf');
+}
+
+
 .row {
     margin: 0 auto;
 }
