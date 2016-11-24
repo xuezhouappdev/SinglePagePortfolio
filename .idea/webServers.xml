@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c6d02942-f144-4cf7-a4c8-ed539fa39f8d" name="ehost server" url="http://echochow.com">
-        <fileTransfer host="echochow.com" port="21" username="admin@echochow.com">
+        <fileTransfer host="echochow.com" port="21" password="dfd0dfd2df9bdf93df93df9adf9bdf93dfd0dfd2dfcb" username="admin@echochow.com">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
