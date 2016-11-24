@@ -1,0 +1,100 @@
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header nav {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+
+nav >p{
+
+    margin:20px;
+    cursor:pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: black;
+    color:white;
+
+}
+
+nav >p:active {
+
+    position:relative;
+    buttom:5px;
+    background-color: white;
+    color:black;
+
+
+
+}
+
+nav>p:hover{
+
+    position:relative;
+    top:2px;
+}
+
+header {
+    border-bottom: 1px solid black;
+
+}
+
+.jumbotron {
+
+    background: none;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.center {
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+
+form {
+
+    margin:auto;
+    width:300px;
+
+}
+
+label {
+    text-align: left;
+}
+
+a.btn.btn-primary {
+    float:right;
+    background: black;
+}
+
+
+a.btn.btn-primary:hover {
+    float:right;
+    position: relative;
+    top:2px;
+    background: black;
+}
+
+input.btn.btn-primary:hover {
+    float:right;
+    position: relative;
+    top:2px;
+    background: black;
+}

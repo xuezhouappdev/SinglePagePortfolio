@@ -1,0 +1,154 @@
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav >a{
+
+    margin:20px;
+    cursor:pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: black;
+    color:white;
+    margin-bottom: 0;
+    text-decoration: none;
+
+
+}
+
+nav >a:active {
+
+    position:relative;
+
+    background-color: white;
+    color:black;
+    margin-bottom: 0;
+    text-decoration: none;
+
+
+
+}
+
+nav>a:hover{
+
+    position:relative;
+    top:2px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 1px solid black;
+
+}
+
+.jumbotron {
+
+    background: none;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.center {
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+
+form {
+
+    margin:auto;
+
+
+}
+
+label {
+    text-align: left;
+}
+
+button.btn.btn-primary {
+
+    background: black;
+    margin: 5px;
+    border-color: black;
+
+}
+
+
+button.btn.btn-primary:hover {
+
+    position: relative;
+    top:2px;
+    background: black;
+}
+
+
+.btnset {
+float: right;
+
+}
+
+a.btnset {
+    width: inherit;
+
+    position: relative;
+    top:2px;
+}
+
+
+.image {
+
+    background-image: url("https://www.speechbuddy.com/blog/wp-content/uploads/2014/07/roadtrip.jpg");
+
+    background-size:cover;
+
+    min-width: 964px;
+    min-height: 422px;
+
+    justify-content:center;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+
+
+
+
+}
+
+
+.image h1,h4{
+    display:inline-block;
+    padding: 3px 12px;
+    background-color:#FEF9E7    ;
+    color: #13001a;
+    align-items: center;
+    font-weight: 600;
+    box-shadow: #0f0f0f 1px ;
+    border: solid 2px;
+
+
+
+
+
+}
+
+
