@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c6d02942-f144-4cf7-a4c8-ed539fa39f8d" name="ehost server" url="http://echochow.com">
+        <fileTransfer host="echochow.com" port="21" username="admin@echochow.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
