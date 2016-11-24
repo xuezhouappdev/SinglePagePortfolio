@@ -6,6 +6,10 @@ font-family: "Cochin",sans-serif;
 }
 
 
+.row {
+    margin: 0 auto;
+}
+
 div {
     max-width: 100%;
 }
@@ -66,8 +70,9 @@ div {
 
 
 
-.section {
-    background-color: #3c3c3c;
+div.section {
+    background: url("../image/background.jpeg") center center no-repeat;
+    opacity: 0.99;
     background-size: cover;
     z-index: -100;
 
@@ -205,6 +210,7 @@ div.works{
 
 .works img {
     margin: 8px;
+    width: 100%;
 
 
 
@@ -406,4 +412,20 @@ h5::after {
     max-width: 80px;
     width: 100%;
     margin: 10px auto;
+}
+
+
+
+
+
+@media screen and (max-width: 991px)  {
+
+    .works img {
+        width:70%;
+        margin:5px auto
+    }
+
+
+
+
 }
