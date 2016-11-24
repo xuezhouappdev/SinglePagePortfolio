@@ -285,14 +285,14 @@
         $('body').scrollspy({target: ".header", offset: 50});
 
         // Add smooth scrolling on all links inside the navbar
-        $(".header .topnav a,.footer a").on('click', function(event) {
+        $(".header .topnav a").on('click', function(event) {
 
 
-            $(".header .topnav a").css({'background':'#353535',
+            $(this).css({'background':'#353535',
                 'color':'whitesmoke'});
 
-            $(this).css({'background':'whitesmoke',
-                          'color':'black'});
+
+
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
                 // Prevent default anchor click behavior
@@ -314,6 +314,38 @@
                 });
             }  // End if
         });
+
+
+
+
+        //footer a
+        $(".footer a").on('click', function(event) {
+
+
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            }  // End if
+        });
+
+
 
 
 
