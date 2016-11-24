@@ -287,12 +287,12 @@
         // Add smooth scrolling on all links inside the navbar
         $(".header .topnav a").on('click', function(event) {
 
-
-            $(this).css({'background':'#353535',
+            //reset all the background to originL
+            $(".header .topnav a").css({'background':'#353535',
                 'color':'whitesmoke'});
 
-
-
+            $(this).css({'background':'whitesmoke',
+                          'color':'black'});
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
                 // Prevent default anchor click behavior
@@ -317,8 +317,8 @@
 
 
 
-
         //footer a
+        // Add smooth scrolling on all links inside the navbar
         $(".footer a").on('click', function(event) {
 
 
